@@ -1,8 +1,14 @@
 {
 	"AssociatedProject": [
-		"gtest"
-	],
-	"ChooseCompiler": [
+		"gtest",
+		"basic",
+		"system",
+		"reactor",
+		"protocol",
+		"data_structure",
+		"util",
+		"algorithm"
+	],"ChooseCompiler": [
 		{
 			"CompilerName": "g++",
 			"DebugOption": "-O0 -Wall -g -ggdb -std=c++11",
@@ -28,9 +34,14 @@
 	},
 	"LibraryListing": {
 		"debug": [
-			
-		],
-		"release": [
+			"pthread",
+			"basicd",
+			"systemd",
+			"utild",
+			"protocold",
+			"algorithmd",
+			"reactord"
+		],"release": [
 			
 		]
 	},

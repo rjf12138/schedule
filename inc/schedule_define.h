@@ -10,6 +10,15 @@ enum EEventStatus {
     EEventStatus_Complete // 完成的
 };
 
+//////////////////////// 数据文件存储路径宏 ////////////////////////////////////
+#define EVENT_INFO_DIR_PATH     "./config/event_info/"                     // 事件路径
+#define EVENT_ID_LIST_PATH      "./config/user_info/event_id_list.txt"     // 事件id列表
+#define USER_INFO_DIR_PATH      "./config/user_info/"                      // 用户信息路径
+#define USERS_ID_LIST_PATH      "./config/user_info/user_id_list.txt"      // 用户id列表
+#define NEXT_EVENT_ID_PATH      "./config/next_event_id"                   // 下一个可分配事件ID
+#define NEXT_USER_ID_PATH       "./config/next_user_id"                    // 下一个可分配用户ID
+
+/////////////////////// HTTP 请求URL ///////////////////////////////////////
 /////////////////////// 用户登录/登出 ///////////////////////////////////////
 #define MACRP_UserLogin "/UserLogin" // 用digest摘要认证方式
 /*
@@ -86,4 +95,5 @@ enum EEventStatus {
     "EventName": "xber3456"
 }
 */
+
 #endif

@@ -20,6 +20,9 @@ public:
     UserInfo& search(std::string id);
 
 private:
+    std::string generate_user_id(void);
+    
+private:
     std::map<std::string, UserInfo> users_;
 };
 
